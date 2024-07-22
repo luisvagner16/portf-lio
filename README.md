@@ -1,4 +1,4 @@
-<div style="display:flex;">
+<div style="display:inline;">
 <div>
         <p>luisvagner16/README.md</p>
         <h1>Hi &#9995, I'm Luís Gonçalves</h1>
