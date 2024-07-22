@@ -1,1 +1,1 @@
-<h1>Hi <a herf="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif"></a>, I'm Luís Gonçalves</h1>
+<h1>Hi &#9995, I'm Luís Gonçalves</h1>
