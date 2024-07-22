@@ -14,7 +14,7 @@
  <br>
 <h1>&#9989 Contact</h1>
 </div>
-<div>
-<img src="transferir (3).jpeg" alt="">
+ <div>
+<img src="transferir (3).jpeg" alt="" style="width:50%;">
 </div>
 </div>
