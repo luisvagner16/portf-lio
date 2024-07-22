@@ -4,10 +4,10 @@
 <br>
 <ul>
 <li>&#9889 Desenvolvedor Front-End e Estudante de Ti</li>
-<li>Desenvolvendo Projetos</li>
-<li>Pergunta-me sobre HTML, CSS, JAVASCRIPT, SQL E REACT.JS</li>
-<li>Mais Sobre mim <a herf="#">luisvagner.dev</a></li>
+<li>&#9898 Desenvolvendo Projetos</li>
+<li>&#9925 Pergunta-me sobre HTML, CSS, JAVASCRIPT, SQL E REACT.JS</li>
+<li>&#9940 Mais Sobre mim <a herf="#">luisvagner.dev</a></li>
 <br>
 <br>
-<h1>Contact</h1>
+<h1>&#9989 Contact</h1>
 
