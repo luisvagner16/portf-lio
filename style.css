@@ -10,7 +10,7 @@
     --text-color:white;
 }
 body{
-    height: 100vh;
+    min-height: 100%;
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
