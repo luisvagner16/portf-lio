@@ -17,8 +17,10 @@ header #nameUser a{
     font-weight: 600;
     text-decoration: none;
     font-size: 35px;
+    
 
 }
+
 header ul li{
     display: inline;
     list-style-type: none;
@@ -48,9 +50,32 @@ header ul li a{
     font-size: 19px;
     color: grey;
 }
-.about span{
+.about span.name{
+    display: block;
+    font-family: monospace;
     color: rgb(31, 31, 31);
     font-size: 40px;
+    white-space: nowrap;
+    width: 14ch;
+    overflow:hidden;
+    border-right: 4px solid;
+    animation: animaTexto 4s steps(14) infinite, animaMarcador 0.5s linear infinite;
+}
+@keyframes animaMarcador{
+    50%{
+        border-right: transparent;
+    }
+}
+@keyframes animaTexto{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 14ch;
+    }
+    100%{
+        width: 0;
+    }
 }
 .about h3{
     font-size: 35px;
@@ -190,4 +215,109 @@ article{
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
+}
+div.courses{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+div.courses > div#info_courses{
+    border-radius: 10px;
+    text-align: center;
+    padding: 4rem;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+div.courses > div#info_courses h4{
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(82, 82, 82);
+}
+div.courses > div#info_courses p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+}
+
+/*Projects*/
+.about-projects{
+    margin-top: 6%;
+}
+.img-projects{
+    margin: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.info-card{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    border-radius: 10px;
+    padding: 25px;
+    width: 40%;
+    height: 50%;
+    background-color:rgba(128, 128, 128, 0.26) ;
+
+}
+.info-card img{
+    width: 100%;
+}
+.info-card div h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+     color: rgb(48, 48, 48);
+}
+.info-card a{
+    margin-top: 2%;
+    text-align: center;
+    text-decoration: none;
+    padding: 23px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    font-size: 19px;
+}
+/*Contacts*/
+.contacts{
+    margin-top: 6%;
+}
+.about-contacts{
+   
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.links-contacts{
+
+    border-radius: 15px;
+    padding: 23px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.links-contacts div a{
+    color: rgb(67, 67, 67);
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+footer{
+    margin-top: 8%;
+    
+}
+footer p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
 }
